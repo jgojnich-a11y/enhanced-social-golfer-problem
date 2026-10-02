@@ -1,0 +1,112 @@
+[
+  {
+    "n": 8,
+    "integer_status": "INFEASIBLE",
+    "reference_status": "INFEASIBLE"
+  },
+  {
+    "n": 9,
+    "integer_status": "OPTIMAL",
+    "reference_status": "OPTIMAL",
+    "objective": 77.0,
+    "cross_forced_checks": "passed",
+    "repeated_partner_mutation": "rejected by both"
+  },
+  {
+    "n": 12,
+    "integer_status": "INFEASIBLE",
+    "reference_status": "INFEASIBLE"
+  },
+  {
+    "n": 17,
+    "source": "runs/n15_to24_fair_sweep_20261002/n17/solution_n17_sol.csv",
+    "summary": {
+      "validation": "passed",
+      "repeated_player_pairs": 0,
+      "minimum_distinct_slots": 3,
+      "total_spread": 63,
+      "max_same_slot_appearances": 2,
+      "four_player_rounds_min": 1,
+      "four_player_rounds_max": 2
+    },
+    "integer_forced_status": "OPTIMAL",
+    "reference_forced_status": "OPTIMAL",
+    "round_pair_counts": {
+      "1-2": 1,
+      "1-3": 1,
+      "1-4": 0,
+      "2-3": 1,
+      "2-4": 1,
+      "3-4": 1
+    }
+  },
+  {
+    "n": 18,
+    "source": "runs/n18_20261001_214154/fair/solution_n18_sol.csv",
+    "summary": {
+      "validation": "passed",
+      "repeated_player_pairs": 0,
+      "minimum_distinct_slots": 3,
+      "total_spread": 65,
+      "max_same_slot_appearances": 2,
+      "four_player_rounds_min": 2,
+      "four_player_rounds_max": 3
+    },
+    "integer_forced_status": "OPTIMAL",
+    "reference_forced_status": "OPTIMAL",
+    "round_pair_counts": {
+      "1-2": 4,
+      "1-3": 1,
+      "1-4": 0,
+      "2-3": 1,
+      "2-4": 0,
+      "3-4": 1
+    }
+  },
+  {
+    "n": 19,
+    "source": "runs/n19_integer_target69_20261003/hint.csv",
+    "summary": {
+      "validation": "passed",
+      "repeated_player_pairs": 0,
+      "minimum_distinct_slots": 3,
+      "total_spread": 68,
+      "max_same_slot_appearances": 2,
+      "four_player_rounds_min": 3,
+      "four_player_rounds_max": 4
+    },
+    "integer_forced_status": "OPTIMAL",
+    "reference_forced_status": "OPTIMAL",
+    "round_pair_counts": {
+      "1-2": 3,
+      "1-3": 1,
+      "1-4": 1,
+      "2-3": 1,
+      "2-4": 1,
+      "3-4": 1
+    }
+  },
+  {
+    "n": 19,
+    "source": "solutions/opt_solution_n19_sol.csv",
+    "summary": {
+      "validation": "passed",
+      "repeated_player_pairs": 0,
+      "minimum_distinct_slots": 2,
+      "total_spread": 69,
+      "max_same_slot_appearances": 3,
+      "four_player_rounds_min": 3,
+      "four_player_rounds_max": 4
+    },
+    "integer_forced_status": "OPTIMAL",
+    "reference_forced_status": "OPTIMAL",
+    "round_pair_counts": {
+      "1-2": 1,
+      "1-3": 1,
+      "1-4": 3,
+      "2-3": 1,
+      "2-4": 1,
+      "3-4": 2
+    }
+  }
+]

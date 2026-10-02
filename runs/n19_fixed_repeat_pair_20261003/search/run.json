@@ -1,0 +1,865 @@
+{
+  "state": "complete",
+  "case": "fixed_1_2",
+  "started_at": "2026-10-03T06:29:37.020111+10:00",
+  "players": 19,
+  "rounds": 4,
+  "group_sizes": [
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "target_minimum_spread": 3,
+  "target_total_spread": 69,
+  "early_repeat_appearances": 0,
+  "late_repeat_appearances": 7,
+  "time_limit_seconds": 600,
+  "seed": 73,
+  "workers": 8,
+  "strengthen": false,
+  "round_order_symmetry": false,
+  "fixed_exceptional_round_pair": [
+    1,
+    2
+  ],
+  "hint_normalization": {
+    "original_round_order": [
+      1,
+      4,
+      2,
+      3
+    ],
+    "player_mapping": {
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "round_pair_strengthening": true,
+  "round_pair_repeat_pattern": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "objective": "feasibility only",
+  "hint_assignment_count": 380,
+  "baseline_validation": [
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 3,
+          "2-3": 1,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          1,
+          3,
+          2,
+          4
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 3,
+          "2-3": 1,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          1,
+          4,
+          2,
+          3
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 3,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 1,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          2,
+          3,
+          1,
+          4
+        ],
+        "player_mapping": {
+          "4": 17,
+          "8": 18,
+          "16": 19,
+          "3": 13,
+          "7": 14,
+          "11": 15,
+          "19": 16,
+          "2": 9,
+          "6": 10,
+          "10": 11,
+          "15": 12,
+          "1": 5,
+          "9": 6,
+          "14": 7,
+          "18": 8,
+          "5": 1,
+          "12": 2,
+          "13": 3,
+          "17": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          11,
+          12,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 1,
+          "2-4": 1,
+          "3-4": 3
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          2,
+          4,
+          1,
+          3
+        ],
+        "player_mapping": {
+          "4": 17,
+          "8": 18,
+          "16": 19,
+          "3": 13,
+          "7": 14,
+          "11": 15,
+          "19": 16,
+          "2": 9,
+          "6": 10,
+          "10": 11,
+          "15": 12,
+          "1": 5,
+          "9": 6,
+          "14": 7,
+          "18": 8,
+          "5": 1,
+          "12": 2,
+          "13": 3,
+          "17": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          11,
+          12,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 3,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "fair68",
+      "normalization": {
+        "original_round_order": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "player_mapping": {
+          "3": 17,
+          "5": 18,
+          "10": 19,
+          "1": 13,
+          "8": 14,
+          "12": 15,
+          "15": 16,
+          "4": 9,
+          "7": 10,
+          "14": 11,
+          "17": 12,
+          "2": 5,
+          "11": 6,
+          "13": 7,
+          "18": 8,
+          "6": 1,
+          "9": 2,
+          "16": 3,
+          "19": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          7,
+          8,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 3,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          4,
+          6,
+          8,
+          12,
+          14
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 3,
+          "2-3": 1,
+          "2-4": 1,
+          "3-4": 2
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          1,
+          3,
+          2,
+          4
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          4,
+          6,
+          8,
+          12,
+          14
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 3,
+          "2-3": 1,
+          "2-4": 2,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          1,
+          4,
+          2,
+          3
+        ],
+        "player_mapping": {
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          4,
+          6,
+          8,
+          12,
+          14
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 3,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 1,
+          "2-4": 2,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          2,
+          3,
+          1,
+          4
+        ],
+        "player_mapping": {
+          "2": 17,
+          "6": 18,
+          "10": 19,
+          "3": 13,
+          "7": 14,
+          "11": 15,
+          "14": 16,
+          "4": 9,
+          "5": 10,
+          "15": 11,
+          "17": 12,
+          "1": 5,
+          "9": 6,
+          "16": 7,
+          "18": 8,
+          "8": 1,
+          "12": 2,
+          "13": 3,
+          "19": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          2,
+          9,
+          16,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 1,
+          "2-4": 2,
+          "3-4": 3
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          2,
+          4,
+          1,
+          3
+        ],
+        "player_mapping": {
+          "2": 17,
+          "6": 18,
+          "10": 19,
+          "3": 13,
+          "7": 14,
+          "11": 15,
+          "14": 16,
+          "4": 9,
+          "5": 10,
+          "15": 11,
+          "17": 12,
+          "1": 5,
+          "9": 6,
+          "16": 7,
+          "18": 8,
+          "8": 1,
+          "12": 2,
+          "13": 3,
+          "19": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          2,
+          9,
+          16,
+          18
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 1,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 3,
+          "2-4": 2,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "normalization": {
+        "original_round_order": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "player_mapping": {
+          "7": 17,
+          "9": 18,
+          "15": 19,
+          "2": 13,
+          "5": 14,
+          "12": 15,
+          "18": 16,
+          "1": 9,
+          "6": 10,
+          "14": 11,
+          "19": 12,
+          "3": 5,
+          "10": 6,
+          "13": 7,
+          "17": 8,
+          "4": 1,
+          "8": 2,
+          "11": 3,
+          "16": 4
+        }
+      },
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          2,
+          10,
+          11,
+          15
+        ],
+        "overlapping_repeat_players": [],
+        "round_pair_repeat_counts": {
+          "1-2": 2,
+          "1-3": 1,
+          "1-4": 1,
+          "2-3": 3,
+          "2-4": 1,
+          "3-4": 1
+        }
+      },
+      "forced_model_status": "OPTIMAL"
+    }
+  ],
+  "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "architecture": "arm64",
+  "command": [
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_fixed_repeat_pair_20261003/test_driver.py"
+  ],
+  "hint_sha256": "e0e9f244d5c1043c561a6a85277e23e31bf1469f30ebe46fd32ead69cf4268f8",
+  "solver_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9",
+  "driver_sha256": "1008372edd589d22adb56d7223460e00b01c831b8b45499dc191f1ffe7997cb4",
+  "git_head": "e1962f7919bc5bd4e2436358b96170bf33ff7690",
+  "note": "Source snapshot includes uncommitted changes; HEAD alone does not identify source.",
+  "finished_at": "2026-10-03T06:39:37.076603+10:00",
+  "solver_status": "UNKNOWN",
+  "solver_elapsed_seconds": 600.0321720000001,
+  "conclusion": "Repeat case unresolved: no qualifying schedule or infeasibility proof within the limit.",
+  "initial_recorded_command": [
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_fixed_repeat_pair_20261003/test_driver.py",
+    "--case",
+    "fixed_1_2"
+  ],
+  "command_record_note": "The single-case runner invokes the driver without arguments; removed unused --case arguments inherited from the two-case metadata template. Executed source and checksum are preserved."
+}

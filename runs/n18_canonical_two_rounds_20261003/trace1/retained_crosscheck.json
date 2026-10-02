@@ -1,0 +1,9 @@
+{
+  "trace": 1,
+  "status": "INFEASIBLE",
+  "elapsed_seconds": 6.040562,
+  "finished_at": "2026-10-03T07:21:11.019316+10:00",
+  "time_limit_seconds": 1200,
+  "workers": 8,
+  "seed": 73
+}

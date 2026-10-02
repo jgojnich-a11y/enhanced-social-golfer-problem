@@ -1,0 +1,13 @@
+{
+  "archived_file_count": 51,
+  "removed": [
+    "historical_scripts/",
+    "bin/",
+    "include/",
+    "lib/",
+    "pyvenv.cfg"
+  ],
+  "preserved_active_editor_files": [],
+  "retained_environment": ".venv",
+  "editor_followup": "Sessions closed; solutions.txt archived and both swap files preserved in editor_recovery with verified checksums."
+}

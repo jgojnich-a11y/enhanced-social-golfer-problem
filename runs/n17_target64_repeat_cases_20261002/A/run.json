@@ -1,0 +1,99 @@
+{
+  "state": "complete",
+  "case": "A",
+  "started_at": "2026-10-02T18:14:18.217758+10:00",
+  "players": 17,
+  "rounds": 4,
+  "group_sizes": [
+    3,
+    3,
+    3,
+    4,
+    4
+  ],
+  "target_minimum_spread": 3,
+  "target_total_spread": 64,
+  "early_repeat_appearances": 1,
+  "late_repeat_appearances": 3,
+  "time_limit_seconds": 600,
+  "seed": 73,
+  "workers": 8,
+  "strengthen": false,
+  "round_order_symmetry": false,
+  "objective": "feasibility only",
+  "hint_assignment_count": 340,
+  "baseline_validation": [
+    {
+      "source": "fair63",
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 63,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 1,
+        "four_player_rounds_max": 2
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 2,
+        "late_repeat_appearances": 3,
+        "early_repeat_players": [
+          3,
+          16
+        ],
+        "late_repeat_players": [
+          1,
+          12,
+          13
+        ],
+        "overlapping_repeat_players": []
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old64",
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 64,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 1,
+        "four_player_rounds_max": 2
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 1,
+        "late_repeat_appearances": 3,
+        "early_repeat_players": [
+          12
+        ],
+        "late_repeat_players": [
+          2,
+          12,
+          13
+        ],
+        "overlapping_repeat_players": [
+          12
+        ]
+      },
+      "forced_model_status": "OPTIMAL"
+    }
+  ],
+  "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "architecture": "arm64",
+  "command": [
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n17_target64_repeat_cases_20261002/test_driver.py",
+    "--case",
+    "A"
+  ],
+  "hint_sha256": "387044c466a61f0d0de315d51ddf14955645a8b47998c85c5dc29e2bcbf052eb",
+  "solver_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9",
+  "driver_sha256": "275f003ec70a14ea4e907f5c3f2dbfca7630700451eaebf14641f3484f9b7f0f",
+  "git_head": "e1962f7919bc5bd4e2436358b96170bf33ff7690",
+  "note": "Source snapshot includes uncommitted changes; HEAD alone does not identify source.",
+  "finished_at": "2026-10-02T18:16:00.846822+10:00",
+  "solver_status": "INFEASIBLE",
+  "solver_elapsed_seconds": 102.60244700000001,
+  "conclusion": "Proved this repeat case infeasible. Global fairness (3,63) is optimal only if both exhaustive cases are infeasible, using the saved upper bound."
+}

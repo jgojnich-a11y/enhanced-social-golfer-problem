@@ -1,0 +1,174 @@
+[
+  {
+    "players": 15,
+    "minimum_distinct_slots": 2,
+    "total_spread": 45,
+    "group_sizes": [
+      3,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n15_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n15/solution_n15_sol.csv",
+    "sha256": "2b4c5376162fd80af9ce9bcca546525589ed3e6129f4eb56fce44337a0a04291",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n15/run.json"
+  },
+  {
+    "players": 16,
+    "minimum_distinct_slots": 2,
+    "total_spread": 44,
+    "group_sizes": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n16_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n16/solution_n16_sol.csv",
+    "sha256": "00b6b2e8bb77468794fbe8e8349b83545384c3de00c82d2f4e626a7a14f712bb",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n16/run.json"
+  },
+  {
+    "players": 17,
+    "minimum_distinct_slots": 3,
+    "total_spread": 63,
+    "group_sizes": [
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n17_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n17/solution_n17_sol.csv",
+    "sha256": "387044c466a61f0d0de315d51ddf14955645a8b47998c85c5dc29e2bcbf052eb",
+    "proof": "runs/n17_target64_repeat_cases_20261002/README.md"
+  },
+  {
+    "players": 18,
+    "minimum_distinct_slots": 3,
+    "total_spread": 65,
+    "group_sizes": [
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n18_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n18/solution_n18_sol.csv",
+    "sha256": "2f8b1f818b720c40e5ff6eaab09861617def6dcde32ef1ccd2efbd9393778f9b",
+    "proof": "runs/n18_canonical_two_rounds_20261003/README.md"
+  },
+  {
+    "players": 19,
+    "minimum_distinct_slots": 3,
+    "total_spread": 68,
+    "group_sizes": [
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n19_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n19/solution_n19_sol.csv",
+    "sha256": "bca3a8538495f38b281f0576df798dacb81ede8c8f70d09faecb1d64820e2372",
+    "proof": "runs/n19_canonical_two_rounds_20261003/README.md"
+  },
+  {
+    "players": 20,
+    "minimum_distinct_slots": 4,
+    "total_spread": 80,
+    "group_sizes": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n20_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n20/solution_n20_sol.csv",
+    "sha256": "7a9e22e3eab1abbc43d540d446a5f6b108414b25dfe048a1e72af82da3198540",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n20/run.json"
+  },
+  {
+    "players": 21,
+    "minimum_distinct_slots": 4,
+    "total_spread": 84,
+    "group_sizes": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n21_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n21/solution_n21_sol.csv",
+    "sha256": "285cf57c398b91bf6c1e12ef5e9a22fe112a2479e00ae6b05c6419bf62d9be74",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n21/run.json"
+  },
+  {
+    "players": 22,
+    "minimum_distinct_slots": 4,
+    "total_spread": 88,
+    "group_sizes": [
+      3,
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n22_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n22/solution_n22_sol.csv",
+    "sha256": "c705e951c14ae971f7735838b89cc9afb5449351e805d569c90716d08e1cf6c6",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n22/run.json"
+  },
+  {
+    "players": 23,
+    "minimum_distinct_slots": 4,
+    "total_spread": 92,
+    "group_sizes": [
+      3,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n23_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n23/solution_n23_sol.csv",
+    "sha256": "15cd3484c0af3064f2cff953e5df9665bf62a1e462549a959757e9c0c296535d",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n23/run.json"
+  },
+  {
+    "players": 24,
+    "minimum_distinct_slots": 4,
+    "total_spread": 96,
+    "group_sizes": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "validation": "passed",
+    "schedule": "solutions/optimal/n24_sol.csv",
+    "source": "runs/n15_to24_fair_sweep_20261002/n24/solution_n24_sol.csv",
+    "sha256": "0128f1b057f2e6f7c3c5442d7b727f85e7145b68ed647d0899897a9efef97ddd",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n24/run.json"
+  }
+]

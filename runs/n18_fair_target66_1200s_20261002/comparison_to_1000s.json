@@ -1,0 +1,12 @@
+{
+  "identical_artifacts": {
+    "model.pbtxt": true,
+    "hint.csv": true,
+    "solver_snapshot.py": true,
+    "metrics_snapshot.py": true,
+    "dependencies.txt": true
+  },
+  "previous_limit_seconds": 1000,
+  "current_limit_seconds": 1200,
+  "fresh_search": true
+}

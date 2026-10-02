@@ -1,0 +1,99 @@
+{
+  "state": "complete",
+  "case": "B",
+  "started_at": "2026-10-02T18:43:50.789285+10:00",
+  "players": 19,
+  "rounds": 4,
+  "group_sizes": [
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "target_minimum_spread": 3,
+  "target_total_spread": 69,
+  "early_repeat_appearances": 0,
+  "late_repeat_appearances": 7,
+  "time_limit_seconds": 600,
+  "seed": 73,
+  "workers": 8,
+  "strengthen": false,
+  "round_order_symmetry": false,
+  "objective": "feasibility only",
+  "hint_assignment_count": 380,
+  "baseline_validation": [
+    {
+      "source": "fair68",
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 3,
+        "total_spread": 68,
+        "max_same_slot_appearances": 2,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 8,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          1,
+          5,
+          8,
+          10,
+          12,
+          13,
+          15,
+          18
+        ],
+        "overlapping_repeat_players": []
+      },
+      "forced_model_status": "OPTIMAL"
+    },
+    {
+      "source": "old69",
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "repeat_summary": {
+        "early_repeat_appearances": 0,
+        "late_repeat_appearances": 7,
+        "early_repeat_players": [],
+        "late_repeat_players": [
+          4,
+          6,
+          8,
+          12,
+          14
+        ],
+        "overlapping_repeat_players": []
+      },
+      "forced_model_status": "OPTIMAL"
+    }
+  ],
+  "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "architecture": "arm64",
+  "command": [
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_targets70_69_20261002/test_driver.py",
+    "--case",
+    "B"
+  ],
+  "hint_sha256": "bca3a8538495f38b281f0576df798dacb81ede8c8f70d09faecb1d64820e2372",
+  "solver_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9",
+  "driver_sha256": "e7a4d47f47fde5aafbf592c631fc0669edf9c750d38eff0bfe7ac9a1552616ea",
+  "git_head": "e1962f7919bc5bd4e2436358b96170bf33ff7690",
+  "note": "Source snapshot includes uncommitted changes; HEAD alone does not identify source.",
+  "finished_at": "2026-10-02T18:53:50.845955+10:00",
+  "solver_status": "UNKNOWN",
+  "solver_elapsed_seconds": 600.0312630000001,
+  "conclusion": "Repeat case unresolved: no qualifying schedule or infeasibility proof within the limit."
+}

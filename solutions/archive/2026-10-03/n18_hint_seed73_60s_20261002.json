@@ -1,0 +1,287 @@
+{
+  "command": ".venv/bin/python cp_sat_caseB_v1_1.py --n 18 --time_limit 60 --maximize_spread --seed 73 --workers 8 --input_csv solutions/solution_n18_sol.csv --out_prefix solutions/n18_hint_seed73_60s_20261002",
+  "hint_sha256": "597b02bd7f1b831144c113be8f72395475fa7688febbefbd51de72be8d58380e",
+  "solver_sha256": "d2e79a9f4b5168434d09245698984cd360e2002aff81ad17b71348861aa3f12d",
+  "summary": {
+    "validation": "passed",
+    "repeated_player_pairs": 0,
+    "minimum_distinct_slots": 2,
+    "total_spread": 66,
+    "average_distinct_slots": 3.6666666666666665,
+    "average_hogging": 0.3333333333333333,
+    "worst_hogging": 0.75,
+    "max_same_slot_appearances": 3
+  },
+  "players": [
+    {
+      "player": 1,
+      "round_slots": [
+        5,
+        5,
+        2,
+        1
+      ],
+      "distinct_slots": 3,
+      "repeat_appearances": 1,
+      "max_same_slot_appearances": 2,
+      "hogging_index": 0.5,
+      "average_minutes_after_1000": 15.75,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 2,
+      "round_slots": [
+        5,
+        4,
+        3,
+        2
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 17.5,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 3,
+      "round_slots": [
+        5,
+        2,
+        4,
+        3
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 17.5,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 4,
+      "round_slots": [
+        5,
+        3,
+        1,
+        4
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 15.75,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 5,
+      "round_slots": [
+        4,
+        3,
+        4,
+        1
+      ],
+      "distinct_slots": 3,
+      "repeat_appearances": 1,
+      "max_same_slot_appearances": 2,
+      "hogging_index": 0.5,
+      "average_minutes_after_1000": 14.0,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 6,
+      "round_slots": [
+        4,
+        2,
+        3,
+        5
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 17.5,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 7,
+      "round_slots": [
+        4,
+        1,
+        5,
+        2
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 14.0,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 8,
+      "round_slots": [
+        4,
+        5,
+        1,
+        3
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 15.75,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 9,
+      "round_slots": [
+        3,
+        5,
+        4,
+        2
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 17.5,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 10,
+      "round_slots": [
+        3,
+        2,
+        5,
+        1
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 12.25,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 11,
+      "round_slots": [
+        3,
+        1,
+        2,
+        4
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 10.5,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 12,
+      "round_slots": [
+        3,
+        4,
+        1,
+        5
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 15.75,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 13,
+      "round_slots": [
+        2,
+        4,
+        5,
+        4
+      ],
+      "distinct_slots": 3,
+      "repeat_appearances": 1,
+      "max_same_slot_appearances": 2,
+      "hogging_index": 0.5,
+      "average_minutes_after_1000": 19.25,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 14,
+      "round_slots": [
+        2,
+        3,
+        3,
+        3
+      ],
+      "distinct_slots": 2,
+      "repeat_appearances": 2,
+      "max_same_slot_appearances": 3,
+      "hogging_index": 0.75,
+      "average_minutes_after_1000": 12.25,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 15,
+      "round_slots": [
+        2,
+        1,
+        4,
+        5
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 14.0,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 16,
+      "round_slots": [
+        1,
+        5,
+        3,
+        4
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 15.75,
+      "four_player_rounds": 3
+    },
+    {
+      "player": 17,
+      "round_slots": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "distinct_slots": 4,
+      "repeat_appearances": 0,
+      "max_same_slot_appearances": 1,
+      "hogging_index": 0.25,
+      "average_minutes_after_1000": 10.5,
+      "four_player_rounds": 2
+    },
+    {
+      "player": 18,
+      "round_slots": [
+        1,
+        3,
+        5,
+        5
+      ],
+      "distinct_slots": 3,
+      "repeat_appearances": 1,
+      "max_same_slot_appearances": 2,
+      "hogging_index": 0.5,
+      "average_minutes_after_1000": 17.5,
+      "four_player_rounds": 3
+    }
+  ]
+}

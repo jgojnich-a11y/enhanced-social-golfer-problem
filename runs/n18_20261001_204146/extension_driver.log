@@ -1,0 +1,4 @@
+WARNING: The directory '/Users/jgojnich/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Run folder: /Users/jgojnich/enhanced-social-golfer-problem/runs/n18_20261001_214154
+total complete FEASIBLE {'validation': 'passed', 'repeated_player_pairs': 0, 'minimum_distinct_slots': 2, 'total_spread': 66, 'average_distinct_slots': 3.6666666666666665, 'average_hogging': 0.3333333333333333, 'worst_hogging': 0.75, 'max_same_slot_appearances': 3}
+fair complete FEASIBLE {'validation': 'passed', 'repeated_player_pairs': 0, 'minimum_distinct_slots': 3, 'total_spread': 65, 'average_distinct_slots': 3.611111111111111, 'average_hogging': 0.3472222222222222, 'worst_hogging': 0.5, 'max_same_slot_appearances': 2}

@@ -1,0 +1,15 @@
+{
+  "initial_time_limit_seconds": 3600,
+  "extension_time_limit_seconds": 21600,
+  "trigger": "Valid solution not proven OPTIMAL, or no solution found",
+  "state": "extension_complete",
+  "warm_start": false,
+  "note": "Extension starts a fresh search; both attempts are preserved.",
+  "unresolved_modes": [
+    "total",
+    "fair"
+  ],
+  "failed_modes": [],
+  "exit_code": 0,
+  "extension_folder": "/Users/jgojnich/enhanced-social-golfer-problem/runs/n18_20261001_214154"
+}

@@ -1,0 +1,14 @@
+{
+  "solver_status": "INFEASIBLE",
+  "solver_elapsed_seconds": 13.142633,
+  "time_limit_seconds": 30,
+  "seed": 73,
+  "workers": 8,
+  "objective": "feasibility only: minimum >=3 and total exactly 69",
+  "fixed_rounds": [
+    1,
+    2
+  ],
+  "round_pair_strengthening": false,
+  "retained_source_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9"
+}

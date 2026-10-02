@@ -1,0 +1,6 @@
+{
+  "state": "complete",
+  "exit_code": 0,
+  "solver_status": "UNKNOWN",
+  "conclusion": "Repeat case unresolved: no qualifying schedule or infeasibility proof within the limit."
+}

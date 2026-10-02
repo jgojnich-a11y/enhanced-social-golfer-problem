@@ -1,0 +1,50 @@
+{
+  "mode": "fair",
+  "state": "complete",
+  "started_at": "2026-10-01T20:41:47.045290+10:00",
+  "command": [
+    "/Users/jgojnich/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/enhanced-social-golfer-problem/runs/n18_20261001_204146/solver_snapshot.py",
+    "--n",
+    "18",
+    "--time_limit",
+    "3600",
+    "--fair_spread",
+    "--seed",
+    "1",
+    "--workers",
+    "8",
+    "--out_prefix",
+    "/Users/jgojnich/enhanced-social-golfer-problem/runs/n18_20261001_204146/fair/solution"
+  ],
+  "players": 18,
+  "rounds": 4,
+  "time_limit_seconds": 3600,
+  "seed": 1,
+  "workers": 8,
+  "warm_start": null,
+  "tee_times": [
+    "10:00",
+    "10:07",
+    "10:14",
+    "10:21",
+    "10:28"
+  ],
+  "finished_at": "2026-10-01T21:41:47.768962+10:00",
+  "exit_code": 0,
+  "solver_status": "FEASIBLE",
+  "solver_elapsed_seconds": 3600.05,
+  "objective": 284.0,
+  "best_bound": 287.0,
+  "summary": {
+    "validation": "passed",
+    "repeated_player_pairs": 0,
+    "minimum_distinct_slots": 3,
+    "total_spread": 65,
+    "average_distinct_slots": 3.611111111111111,
+    "average_hogging": 0.3472222222222222,
+    "worst_hogging": 0.5,
+    "max_same_slot_appearances": 2
+  },
+  "solution_sha256": "f30bff081f7bfc7ff3b715dc2b366c207c0c99c76bf607f3d335197f3ebed9ea"
+}

@@ -1,0 +1,1 @@
+2025-11-20T04:23:19.275859 best=66 hint=perturb/hint_solution_n18_sol_20251120_052000_perturb_002.csv seed=1 ts=20251120_035316 sol=archived_solutions/solution_n18_hint_solution_n18_sol_20251120_052000_perturb_002_s1_20251120_035316.csv

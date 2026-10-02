@@ -1,0 +1,23 @@
+{
+  "state": "complete",
+  "strengthen": false,
+  "started_at": "2026-10-02T13:11:10.875118+10:00",
+  "target_spread": 67,
+  "time_limit_seconds": 1000,
+  "seed": 73,
+  "workers": 8,
+  "objective": "feasibility only: total distinct tee slots >= 67",
+  "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "architecture": "arm64",
+  "command": [
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/.venv/bin/python",
+    "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n18_target67_audit_20261002/repaired_hints/test_driver.py"
+  ],
+  "hint_sha256": "597b02bd7f1b831144c113be8f72395475fa7688febbefbd51de72be8d58380e",
+  "solver_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9",
+  "hint_assignment_count": 360,
+  "finished_at": "2026-10-02T13:27:51.078423+10:00",
+  "solver_status": "UNKNOWN",
+  "solver_elapsed_seconds": 1000.035731,
+  "conclusion": "Unresolved: time limit or other stop without a feasible schedule or infeasibility proof."
+}

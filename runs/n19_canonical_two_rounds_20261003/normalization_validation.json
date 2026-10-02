@@ -1,0 +1,722 @@
+{
+  "pattern_count": 12,
+  "orbit_complete": true,
+  "original_round_order": [
+    3,
+    4,
+    1,
+    2
+  ],
+  "hint_normalization": {
+    "late_slot_mapping": [
+      2,
+      4,
+      3,
+      5
+    ],
+    "player_mapping": {
+      "9": 17,
+      "15": 18,
+      "7": 19,
+      "5": 13,
+      "2": 14,
+      "12": 15,
+      "18": 16,
+      "13": 9,
+      "17": 10,
+      "3": 11,
+      "10": 12,
+      "1": 5,
+      "14": 6,
+      "19": 7,
+      "6": 8,
+      "8": 1,
+      "11": 2,
+      "16": 3,
+      "4": 4
+    }
+  },
+  "original_summary": {
+    "validation": "passed",
+    "repeated_player_pairs": 0,
+    "minimum_distinct_slots": 2,
+    "total_spread": 69,
+    "max_same_slot_appearances": 3,
+    "four_player_rounds_min": 3,
+    "four_player_rounds_max": 4
+  },
+  "checks": [
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          4,
+          3,
+          5
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          4,
+          5,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          5,
+          4,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          3,
+          5,
+          4
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          2,
+          5,
+          3,
+          4
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          4,
+          2,
+          3,
+          5
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          4,
+          2,
+          5,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          5,
+          2,
+          4,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          5,
+          2,
+          3,
+          4
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          4,
+          5,
+          2,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    },
+    {
+      "late_zero_pattern": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "summary": {
+        "validation": "passed",
+        "repeated_player_pairs": 0,
+        "minimum_distinct_slots": 2,
+        "total_spread": 69,
+        "max_same_slot_appearances": 3,
+        "four_player_rounds_min": 3,
+        "four_player_rounds_max": 4
+      },
+      "normalization": {
+        "late_slot_mapping": [
+          5,
+          4,
+          2,
+          3
+        ],
+        "player_mapping": {
+          "9": 17,
+          "15": 18,
+          "7": 19,
+          "5": 13,
+          "2": 14,
+          "12": 15,
+          "18": 16,
+          "13": 9,
+          "17": 10,
+          "3": 11,
+          "10": 12,
+          "1": 5,
+          "14": 6,
+          "19": 7,
+          "6": 8,
+          "8": 1,
+          "11": 2,
+          "16": 3,
+          "4": 4
+        }
+      },
+      "integer_forced_status": "OPTIMAL",
+      "retained_forced_status": "OPTIMAL"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "n": 18,
+  "state": "complete",
+  "started_at": "2026-10-02T16:57:50.781623+10:00",
+  "rounds": 4,
+  "group_sizes": [
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "time_limit_seconds": 60,
+  "seed": 73,
+  "workers": 8,
+  "fair_spread": true,
+  "strengthen": false,
+  "hint": null,
+  "tee_times": [
+    "10:00",
+    "10:07",
+    "10:14",
+    "10:21",
+    "10:28"
+  ],
+  "finished_at": "2026-10-02T16:58:50.849949+10:00",
+  "solver_status": "FEASIBLE",
+  "solver_elapsed_seconds": 60.058069,
+  "summary": {
+    "validation": "passed",
+    "repeated_player_pairs": 0,
+    "minimum_distinct_slots": 3,
+    "total_spread": 65,
+    "max_same_slot_appearances": 2,
+    "four_player_rounds_min": 2,
+    "four_player_rounds_max": 3
+  },
+  "objective": 284.0,
+  "best_bound": 289.0,
+  "solution_sha256": "2f8b1f818b720c40e5ff6eaab09861617def6dcde32ef1ccd2efbd9393778f9b",
+  "conclusion": "Validated feasible schedule; optimal fairness is unproven."
+}

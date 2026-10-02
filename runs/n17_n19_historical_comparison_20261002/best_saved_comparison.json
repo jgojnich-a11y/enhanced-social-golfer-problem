@@ -1,0 +1,49 @@
+[
+  {
+    "n": 17,
+    "best_saved_lexicographic_score": [
+      2,
+      64
+    ],
+    "paths": [
+      "sol_1/run_1_n17_sol.csv",
+      "solutions/solution_n17_sol.csv",
+      "solutions/v2_n17_sol.csv"
+    ],
+    "new_score": [
+      3,
+      63
+    ]
+  },
+  {
+    "n": 18,
+    "best_saved_lexicographic_score": [
+      3,
+      65
+    ],
+    "paths": [
+      "sol_1/run_1_n18_sol.csv",
+      "sol_1/run_2_n18_sol.csv"
+    ],
+    "new_score": [
+      3,
+      65
+    ]
+  },
+  {
+    "n": 19,
+    "best_saved_lexicographic_score": [
+      2,
+      69
+    ],
+    "paths": [
+      "sol_1/run_1_n19_sol.csv",
+      "solutions/opt_solution_n19_sol.csv",
+      "solutions/solution_n19_sol.csv"
+    ],
+    "new_score": [
+      3,
+      68
+    ]
+  }
+]

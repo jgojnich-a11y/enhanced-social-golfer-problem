@@ -1,0 +1,5 @@
+{
+  "state": "complete",
+  "conclusion": "Both exhaustive score-64 repeat cases are infeasible. Together with the prior global upper bound 64, the validated (3,63) baseline is lexicographically optimal under current rules.",
+  "run_count": 2
+}

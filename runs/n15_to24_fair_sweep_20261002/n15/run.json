@@ -1,0 +1,40 @@
+{
+  "n": 15,
+  "state": "complete",
+  "started_at": "2026-10-02T16:56:00.870979+10:00",
+  "rounds": 4,
+  "group_sizes": [
+    3,
+    4,
+    4,
+    4
+  ],
+  "time_limit_seconds": 60,
+  "seed": 73,
+  "workers": 8,
+  "fair_spread": true,
+  "strengthen": false,
+  "hint": null,
+  "tee_times": [
+    "10:00",
+    "10:07",
+    "10:14",
+    "10:21"
+  ],
+  "finished_at": "2026-10-02T16:56:01.025251+10:00",
+  "solver_status": "OPTIMAL",
+  "solver_elapsed_seconds": 0.150069,
+  "summary": {
+    "validation": "passed",
+    "repeated_player_pairs": 0,
+    "minimum_distinct_slots": 2,
+    "total_spread": 45,
+    "max_same_slot_appearances": 3,
+    "four_player_rounds_min": 3,
+    "four_player_rounds_max": 4
+  },
+  "objective": 167.0,
+  "best_bound": 167.0,
+  "solution_sha256": "2b4c5376162fd80af9ce9bcca546525589ed3e6129f4eb56fce44337a0a04291",
+  "conclusion": "Proven lexicographic fairness optimum under this model."
+}
