@@ -1,0 +1,17 @@
+CpSolverResponse summary:
+status: FEASIBLE
+objective: 284
+best_bound: 288
+integers: 2234
+booleans: 2214
+conflicts: 659
+branches: 14872
+propagations: 1632971
+integer_propagations: 1590068
+restarts: 7964
+lp_iterations: 0
+walltime: 58.7689
+usertime: 58.7689
+deterministic_time: 607.395
+gap_integral: 854.024
+solution_fingerprint: 0xbf25c639fe5d31f4

@@ -1,0 +1,16 @@
+{
+  "seed": 303,
+  "status": "FEASIBLE",
+  "solver_seconds": 58.768362,
+  "search_limit_seconds": 58.75902108399896,
+  "workers": 8,
+  "hints": 0,
+  "strengthen": true,
+  "validation": "passed",
+  "minimum_spread": 3,
+  "total_spread": 65,
+  "objective": 284.0,
+  "solver_bound": 288.0,
+  "attains_reference_optimum": true,
+  "attempt_seconds": 59.01247533300193
+}

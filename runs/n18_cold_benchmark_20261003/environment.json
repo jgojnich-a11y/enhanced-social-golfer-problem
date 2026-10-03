@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-10-03T12:25:13.626573+10:00",
+  "python": "3.13.15 (main, Aug  5 2026, 12:25:43) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "ortools": "9.14.6206",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "source_sha256": "debdbf407330654184848374fdf5a1d7fb3f322dc494a0fdb81878fdd10efeb9",
+  "driver_sha256": "36de442025c1c220a978ab98e963d1178999a2b60a90940ee9d4c618427fcdb0",
+  "git_head": "ea3a6dfe819debfac084472829424578fa651ef4",
+  "deadline_seconds": 60,
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "configuration": "retained fair_spread + strengthen, first round fixed by player symmetry, no hints",
+  "limitations": [
+    "Local macOS measurements, not GroupMixer execution contract",
+    "Eight solver workers; CPUs not pinned; no 8 GiB process limit",
+    "Import/startup and output overhead included in external wall time; one second reserved after model preparation"
+  ]
+}

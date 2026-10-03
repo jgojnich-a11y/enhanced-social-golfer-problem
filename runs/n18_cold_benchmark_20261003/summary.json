@@ -1,0 +1,12 @@
+{
+  "attempts": 5,
+  "valid": 5,
+  "reference_optimum_hits": 5,
+  "best": [
+    3,
+    65
+  ],
+  "median_weighted_score": 284.0,
+  "solver_optimal_count": 0,
+  "no_pending_runs": true
+}
