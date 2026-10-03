@@ -46,10 +46,8 @@ John Gojnich
 
 ---
 
-Draft only; not sent. Suggested initial route: the GroupMixer Community
-feedback channel at https://groupmixer.app/community. The home page explicitly
-invites tricky constraints, multi-round setups and proposed support there.
-No dedicated benchmark submission process was confirmed. The full local
-case definition is N18_BENCHMARK_CASE.md, and fresh-run evidence is under
-runs/n18_cold_benchmark_20261003/. Publish these supporting files before
-adding direct public links to them in a follow-up.
+Published on 3 October 2026 as John Gojnich (guest):
+
+https://groupmixer.app/community/p/thread_223622e1403764efb52e595f026d61596b79/benchmark-proposal-18-player-mixed-size-tee-time-rotation
+
+Publication was confirmed on the live thread page. The posted wording follows this proposal with minor formatting changes. Supporting evidence was published to GitHub before posting, commit 8632c7f. Screenshot: runs/n18_cold_benchmark_20261003/groupmixer_submission.png. Guest editing is tied to the posting browser; automatic email updates require a signed-in profile.
